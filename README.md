@@ -106,7 +106,7 @@ public class Main {
             m %= 60;
 			
 			if(h >= 24) {
-				h = 0;
+				h %= 24;
 			}
 			
 		}
